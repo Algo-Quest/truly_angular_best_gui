@@ -1,0 +1,54 @@
+<nav class="navbar navBg d-flex justify-content-around fixed-top">
+  <a
+    style="font-size: 1.7em"
+    role="button"
+    class="nav-brand text-white text-decoration-none d-flex align-items-center"
+    routerLink="/"
+    routerLinkActive="active"
+  >
+    <img
+      src="https://www.truelymarry.com/assets/images/logo.png"
+      height="60"
+      width="200"
+      alt=""
+    />
+  </a>
+  <ul class="d-flex nav">
+    <li class="nav-item">
+      <a class="nav-link navLink text-black"
+        ><i class="bi bi-house"></i>&nbsp;Browse by community</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link navLink text-black"
+        ><i class="bi bi-box"></i>&nbsp;Search</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link navLink text-black"
+        ><i class="bi bi-wrench"></i>&nbsp;Services</a
+      >
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link navLink text-black"
+        ><i class="bi bi-person"></i>&nbsp;Membership
+      </a>
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link navLink text-black"
+        routerLink="/auth"
+        routerLinkActive="active"
+        ><i class="bi bi-person-circle"></i>&nbsp;Authentication</a
+      >
+    </li>
+
+    <ng-template>
+      <a class="nav-link navLink"
+        ><i class="bi bi-arrow-left"></i>&nbsp;Logout</a
+      >
+    </ng-template>
+  </ul>
+</nav>
+
+<br /><br />

@@ -1,0 +1,26 @@
+.carousel1 {
+  background-image: url("https://www.truelymarry.com/assets/images/site/couple_bg.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 52em;
+  background-size: 100% 100%;
+}
+
+.row-content {
+  margin-bottom: 10em;
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sb {
+  width: 12em;
+  height: 4em;
+}
+
+.b1 {
+  display: block;
+}

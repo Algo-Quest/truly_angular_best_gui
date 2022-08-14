@@ -1,0 +1,11 @@
+.navBg {
+  background-color: rgb(251, 253, 255);
+}
+
+.inputWidth {
+  width: 100%;
+}
+
+.navLink {
+  cursor: pointer;
+}
